@@ -1,0 +1,49 @@
+.data{
+	&-contact{
+		background: url(../img/bg-white-fomr.jpg) center center / cover;
+		padding: 50px;
+		padding-right: 8.333333%; 
+		font-weight: bold;
+		width: 100%;
+	}
+	&-text{
+		font-weight: bold;
+		padding: 90px 50px;
+		font-size: 18px;
+	}
+}
+.form-contact{
+		padding: 70px 15px;
+	@media only screen and (min-width: 768px){
+		padding: 70px;
+	}
+}
+.text-form{
+	flex-wrap: wrap;
+}
+input,textarea{
+	border: none;
+	width: 100%;
+	margin: 10px 0;
+	padding: 20px;
+	&:focus{
+		outline: none;
+	}
+}
+.btn-form{
+	float: right;
+	padding-right: 50px;
+	&:before{
+		content:"";
+		display: block;
+		background:$amarillo;
+		position: absolute;
+		right: 0;
+		top: 0;
+		width: 40px;
+		height: 100%;
+	}
+	&:after{
+		border-color: $azul;
+	}
+}

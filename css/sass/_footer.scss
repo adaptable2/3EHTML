@@ -1,0 +1,32 @@
+footer{
+	position: relative;
+	padding-top: 80px;
+	padding-bottom: 30px;
+	text-align: center;
+	background: url(../img/footer.jpg) no-repeat center center /cover;
+	ul{
+		list-style: none;
+		padding: 0;
+		text-align: center; 
+		li{
+			display: inline-block;
+			padding: 30px 15px 10px;
+		}
+		a{
+			color: $amarillo;	
+			&:hover{
+				color: $amarillo;
+				border-bottom: solid 2px $amarillo;
+				text-decoration: none;
+			}
+		}
+	}
+	.logo-footer{
+		max-width: 220px;
+	}
+	.arrow-move{
+		position: relative;
+		bottom: 0;
+		margin-bottom: 20px;
+	}
+}

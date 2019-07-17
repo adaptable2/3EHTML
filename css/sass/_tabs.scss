@@ -1,0 +1,28 @@
+.nav-tabs {
+	.nav-item{
+		width: 100%;
+		text-align: center;
+		background: $azul;
+		@media only screen and (min-width: 576px){
+			width: 33.333333%;
+		}
+		.nav-link{
+			padding: 15px 0 11px;
+			color: white;
+			border: none;
+			border-right: solid 1px white;
+			border-left: solid 1px white;
+			border-radius: 0;
+			transition: 0.3s;
+			&.active,&:hover{
+				box-shadow:0px 2px 0 0 #f9be00;
+				background-color: $amarillo;
+				color: $azul;
+				transition: 0.3s;	
+			}
+		}
+	}
+}
+.tabs-bg{
+	background: $celeste;
+}

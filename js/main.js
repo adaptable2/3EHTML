@@ -28,7 +28,7 @@ $(window).on('load', function() {
 	    }
 
 
-	    $(".nav-link").click(function() {
+	    $(".js-btn").click(function() {
 	    	let href = $(this).attr('href');
 	    	$('html, body').animate({
 	    		scrollTop: $(href).offset().top - 112

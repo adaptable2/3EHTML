@@ -4,6 +4,10 @@ $amarillo: #F9BE00;
 $celeste: #D4DCE6;
 $gray: #fcfcfc;
 
+/*html {
+  scroll-behavior: smooth;
+}*/
+
 body{
 	font-family: 'Open Sans', sans-serif;
 }
@@ -164,9 +168,6 @@ a.card-link{
 		font-size: 32px;
 	}
 }
-#nosotros{
-	transform: 5s;
-}
 .btn-general{
 	color: $amarillo;
 	padding: 13px 40px 13px 20px;
@@ -197,7 +198,6 @@ a.card-link{
 		border-bottom: solid 2px $amarillo;
 	}
 }
-
 .marcas{
 	background: $gray;
 	padding: 20px 15px;
